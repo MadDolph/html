@@ -108,10 +108,6 @@ button {
   justify-content: space-between;
 }
 
-.menu-burger {
-  display: none;
-}
-
 .header-menu-item {
   position: relative;
 
@@ -954,52 +950,6 @@ button {
   .header-menu-item:nth-child(1n + 2) {
     margin-top: 35px;
     margin-left: 0;
-  }
-
-  .menu-burger {
-    position: absolute;
-    top: 35px;
-    right: 25px;
-
-    display: block;
-    background: none;
-  }
-
-  .menu-burger-item {
-    width: 25px;
-    height: 3px;
-    margin-top: 4px;
-
-    background-color: #ffffff;
-  }
-
-  .menu-burger-item:nth-child(1) {
-    transform: translateY(0px) rotate(0turn);
-    transition: transform 1s;
-  }
-
-  .menu-burger-item:nth-child(2) {
-    opacity: 1;
-    transition: opacity 1s;
-  }
-
-  .menu-burger-item:nth-child(3) {
-    transform: translateY(0px) rotate(0turn);
-    transition: transform 0.5s;
-  }
-
-  .menu-burger-item.active:nth-child(1) {
-    transform: translateY(7px) rotate(0.125turn);
-    transition: transform 1s;
-  }
-
-  .menu-burger-item.active:nth-child(2) {
-    opacity: 0;
-  }
-
-  .menu-burger-item.active:nth-child(3) {
-    transform: translateY(-7px) rotate(-0.125turn);
-    transition: transform 1s;
   }
 
   .aside-posts-list {
