@@ -825,7 +825,7 @@ button {
   min-height: 100px;
   height: 100px;
   padding: 10px 15px;
-  transform: none;
+  resize: none;
 
   font-family: inherit;
   font-size: 14px;
