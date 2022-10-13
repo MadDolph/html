@@ -528,13 +528,13 @@ button {
 
 .tag-item-link {
   display: block;
-  padding: 3px 12px;
+  padding: 7px 15px;
 }
 
-.tag-item-link:hover {
+.tag-item:hover {
   
   border: 3px solid #b59f5b;
-  transition: all 0.5s;
+  
 }
 
 .themes-widget {
