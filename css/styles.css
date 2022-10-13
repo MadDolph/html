@@ -517,7 +517,7 @@ button {
 
 .tag-item {
   margin-right: 10px;
-  margin-top: 10px;
+  margin-bottom: 10px;
 
   font-family: OpenSans-Bold, sans-serif;
   font-size: 0.75rem;
