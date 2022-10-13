@@ -532,8 +532,8 @@ button {
 }
 
 .tag-item-link:hover {
-  color: white;
-  background-color: #b59f5b;
+  
+  border: 3px solid #b59f5b;
   transition: all 0.5s;
 }
 
