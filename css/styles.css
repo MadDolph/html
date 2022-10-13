@@ -117,23 +117,8 @@ button {
   margin-left: 35px;
 }
 
-.header-menu-item:before {
-  content: '';
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-
-  display: block;
-  height: 2px;
-  width: 0;
-
-  background-color: #ffffff;
-  transition: width 0.3s ease-in-out;
-  transform: translateX(-50%);
-}
-
-.header-menu-item:hover:before {
-  width: 100%;
+.header-menu-item a:hover {
+  text-decoration: underline;
 }
 
 .menu-sidebar-item {
