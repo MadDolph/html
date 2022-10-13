@@ -516,18 +516,15 @@ button {
 }
 
 .tag-item {
-  margin-right: 10px;
-  margin-bottom: 10px;
-
-  font-family: OpenSans-Bold, sans-serif;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-
+  margin-right: 10px 10px 0 0;
   border: 3px solid #eeeeee;
 }
 
 .tag-item-link {
   display: block;
+  font-family: OpenSans-Bold, sans-serif;
+  font-size: 0.70rem;
+  text-transform: uppercase;
   padding: 7px 15px;
 }
 
