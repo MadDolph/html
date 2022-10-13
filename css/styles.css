@@ -635,10 +635,8 @@ button {
 }
 
 .shopping-btn {
-  width: 140px;
-  height: 50px;
-
-  padding: auto;
+  display: block;  
+  padding: 15px 29px;
   font-family: OpenSans-Bold, sans-serif;
   font-size: 0.87rem;
   text-transform: uppercase;
