@@ -485,8 +485,7 @@ button {
 }
 
 .mailing-btn:hover {
-  background-color: #a7973d;
-  transition: background-color 0.5s;
+  background-color: #323232;
 }
 
 .tags-widget {
