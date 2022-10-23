@@ -381,14 +381,13 @@ button {
 }
 
 .new-post-image-wrap {
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 .new-post-image {
   background-color: #ffffff;
   width: 70;
   height: auto;
-  margin: 20px;
   box-sizing: border-box;
 }
 
