@@ -380,6 +380,11 @@ button {
   margin-bottom: 0;
 }
 
+.new-post-image-wrap {
+  position: relative;
+  padding-bottom: 77%;
+}
+
 .new-post-image {
   background-color: #ffffff;
   position: absolute;
