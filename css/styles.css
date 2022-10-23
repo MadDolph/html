@@ -945,7 +945,7 @@ button {
     background-color: #eeeeee;
   }
 
-  .box-post-image {
+  .post-image-wrap {
     position: relative;
     padding-bottom: 77%;
   }
