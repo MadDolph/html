@@ -947,7 +947,7 @@ button {
 
   .box-post-image {
     position: relative;
-    padding-bottom: 80%;
+    padding-bottom: 0;
   }
 
   .post-image {
