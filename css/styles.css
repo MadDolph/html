@@ -381,14 +381,15 @@ button {
 }
 
 .new-post-image-wrap {
-  position: relative;
   padding-bottom: 100%;
 }
 
 .new-post-image {
   background-color: #ffffff;
-  position: absolute;
-  width: 100%;
+  width: 70;
+  height: auto;
+  margin: 20px;
+  box-sizing: border-box;
 }
 
 .new-post-header {
