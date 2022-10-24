@@ -860,7 +860,7 @@ button {
   border: 3px solid rgb(255, 146, 146);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .header-inner {
     position: static;
   }
@@ -874,7 +874,7 @@ button {
     position: absolute;
     top: 0;
     bottom: 0;
-    right: -100%;
+    
 
     max-width: 50vw;
     padding-top: 80px;
@@ -945,14 +945,11 @@ button {
   .post::after {
     content: '';
     display: block;
-    width: 100%;
+    width: 92%;
     height: 3px;
-    margin: 15px auto 0;
-
+    margin-top: 15px;
     background-color: #eeeeee;
   }
-
-  
 
   .post-content {
     margin-top: 1rem;
@@ -973,9 +970,13 @@ button {
   }
 }
 
-@media (min-width: 641px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .header {
     background-image: url('../img/banner-bg-tablet.jpg');
+  }
+
+  .header-menu-inner {
+    display: none;
   }
 
   .trend-posts-item:nth-child(1n + 2) {
@@ -992,12 +993,26 @@ button {
     margin-bottom: 3px;
   }
 
-  .posts {
-    width: calc(90% - 272px);
+  .post {
+    flex-wrap: wrap;
   }
+
+  .post-image-wrap {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .post-image {
+    width: 92%;
+  }
+
+  .post-content {
+    width: 92%;
+  }
+
 }
 
-@media (max-width: 640px) {
+@media (max-width: 767px) {
   .header {
     padding-bottom: 215px;
 
@@ -1009,6 +1024,10 @@ button {
     justify-content: space-between;
     align-items: flex-end;
     padding-top: 35px;
+  }
+
+  .header-menu-inner {
+    display: none;
   }
  
   
@@ -1050,10 +1069,18 @@ button {
     flex-direction: column;
   }
 
-  .posts {
-    width: 100%;
+  .post {
+    max-width: 767px;
   }
 
+  .post-content {
+    width: 92vw;
+  }
+
+  .post::after {
+    width: 98vw;
+
+  }
   .post-title {
     margin-top: 0.5rem;
     margin-bottom: 1.25rem;
@@ -1149,7 +1176,7 @@ button {
   }
 }
 
-@media (orientation: landscape) and (max-width: 640px) {
+@media (orientation: landscape) and (max-width: 767px) {
   .aside-posts-list {
     flex-direction: row;
   }
