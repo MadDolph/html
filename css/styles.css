@@ -97,6 +97,10 @@ button {
   padding-left: 2px;
 }
 
+.burger-menu {
+  display: none;
+}
+
 .header-menu-inner {
   padding-top: 13px;
   padding-right: 1px;
