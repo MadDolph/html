@@ -1022,6 +1022,10 @@ button {
     padding-top: 35px;
   }
 
+  .burger-icon {
+    display: inline;
+  }
+
   .logo-link {
     align-self: center;
   }
