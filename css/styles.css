@@ -1024,6 +1024,7 @@ button {
 
   .burger-icon {
     display: inline;
+    font-size: 1.25rem;
   }
 
   .logo-link {
