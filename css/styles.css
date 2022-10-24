@@ -952,17 +952,7 @@ button {
     background-color: #eeeeee;
   }
 
-  .post-image-wrap {
-    position: relative;
-    padding-bottom: 77%;
-  }
-
-  .post-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-   
-  }
+  
 
   .post-content {
     margin-top: 1rem;
