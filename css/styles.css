@@ -1015,16 +1015,15 @@ button {
     background-image: url('../img/banner-mobile.jpg');
   }
 
+  .burger-menu, .burger-icon {
+    display: block;
+  }
+
   .header-inner {
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: flex-end;
     padding-top: 35px;
-  }
-
-  .burger-icon {
-    display: inline;
-    font-size: 1.25rem;
   }
 
   .logo-link {
