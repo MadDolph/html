@@ -373,15 +373,11 @@ button {
 .new-post-inner {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 22px;
+  margin-bottom: 17px;
 }
 
 .new-post-inner:last-child {
   margin-bottom: 0;
-}
-
-.new-post-image-wrap {
-  padding-bottom: 1%;
 }
 
 .new-post-image {
