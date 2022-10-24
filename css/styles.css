@@ -97,7 +97,7 @@ button {
   padding-left: 2px;
 }
 
-.burger-menu {
+.burger-menu, .burger-icon {
   display: none;
 }
 
