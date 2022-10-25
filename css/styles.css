@@ -280,6 +280,11 @@ button {
   margin-bottom: 0;
 }
 
+.post-image-wrap {
+  min-width: 381px;
+  margin-bottom: 8px;
+}
+
 .post-image {
   background-color: #ffffff;
 }
@@ -993,7 +998,11 @@ button {
     flex-basis: 50%;
     margin-bottom: 3px;
   }
-
+  
+  .posts {
+    width: auto;
+  }
+  
   .post {
     flex-wrap: wrap;
   }
@@ -1068,8 +1077,21 @@ button {
     flex-direction: column;
   }
 
+  .posts {
+    width: auto;
+  }
+
   .post {
     max-width: 767px;
+  }
+
+  .post-image-wrap {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .post-image {
+    width: 92vw;
   }
 
   .post-content {
@@ -1077,7 +1099,7 @@ button {
   }
 
   .post::after {
-    width: 97vw;
+    width: 92vw;
 
   }
   .post-title {
