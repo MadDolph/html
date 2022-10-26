@@ -867,6 +867,7 @@ button {
 }
 
 @media (max-width: 1199px) {
+  
   .header-inner {
     position: static;
   }
@@ -982,7 +983,7 @@ button {
     min-height: 390px
   }
   
-  .header-menu-inner {
+  .header-menu {
     display: none;
   }
 
