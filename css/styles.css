@@ -282,6 +282,7 @@ button {
 
 .post-image-wrap {
   min-width: 381px;
+  min-height: 298px;
   margin-bottom: 8px;
 }
 
