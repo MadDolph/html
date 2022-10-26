@@ -101,7 +101,7 @@ button {
   display: flex;
 }
 
-.burger-menu, .burger-icon {
+#burger-menu, .burger-icon {
   display: none;
 }
 
@@ -934,11 +934,11 @@ button {
     margin-left: 0;
   }*/
 
-  .burger-menu, .burger-icon {
+  #burger-menu, .burger-icon {
     display: inline;
   }
 
-  .burger-menu {
+  #burger-menu {
     opacity: 0;
   }
 
